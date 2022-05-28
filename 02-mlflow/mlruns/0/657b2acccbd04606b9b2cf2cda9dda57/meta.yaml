@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/mlops-zoomcamp/02-experiment-tracking/homework/mlruns/0/657b2acccbd04606b9b2cf2cda9dda57/artifacts
+end_time: 1653753441571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 657b2acccbd04606b9b2cf2cda9dda57
+run_uuid: 657b2acccbd04606b9b2cf2cda9dda57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1653753415718
+status: 3
+tags: []
+user_id: ubuntu
