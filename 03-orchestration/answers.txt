@@ -1,0 +1,9 @@
+FAQ question
+https://docs.google.com/document/d/12TlBfhIiKtyBv8RnsoJR6F72bkPDGEvPOItJIxaEzE0/edit#heading=h.ucrowkncttwi
+https://docs.google.com/document/d/12TlBfhIiKtyBv8RnsoJR6F72bkPDGEvPOItJIxaEzE0/edit#heading=h.hm43kxsnr0e7
+Q1: train_model
+Q2: validation MSE: 11.637
+Q3: 13,000 bytes
+Q4: 0 9 15 * *
+Q5: 3 runs (???)
+Q6: prefect work-queue ls
