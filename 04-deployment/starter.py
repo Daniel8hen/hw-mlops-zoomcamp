@@ -17,7 +17,7 @@ def load_model(path, perm='rb'):
 def read_data(filename, categorical):
     print("Going to load data from:", filename)
     df = pd.read_parquet(filename)
-    df['ride_id'] = '{year:04d}/{month:02d}_' + df.index.astype('str')
+    df['ride_id'] = f'{year:04d}/{month:02d}_' + df.index.astype('str') # TODO this is a bug: I added f at the start
     df['duration'] = df.dropOff_datetime - df.pickup_datetime
     df['duration'] = df.duration.dt.total_seconds() / 60
 
