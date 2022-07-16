@@ -1,0 +1,12 @@
+services:
+  localstack:
+    image: localstack/localstack
+    environment:
+      - SERVICES=s3
+      - INPUT_FILE_PATTERN="s3://nyc-duration/in/{year:04d}-{month:02d}.parquet"
+      - OUTPUT_FILE_PATTERN="s3://nyc-duration/out/{year:04d}-{month:02d}.parquet"
+      - S3_ENDPOINT_URL="http://localhost:4566"
+    ports:
+      - "4566:4566"
+    volumes:
+      - ./aws:/docker-entrypoint-initaws.d
